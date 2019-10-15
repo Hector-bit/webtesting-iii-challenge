@@ -13,3 +13,15 @@ describe('Control', () => {
     })
 })
 
+// describe('checks status of gate', () => {
+//     it('states if the gate is open and unlocked', () => {
+//         // const wrapper = rtl.render(<App/>);
+//         // const button = wrapper.getBy('button')
+//         // expect(wrapper.queryByText(/success/i)).not.toBeInTheDocument();
+//         // rtl.fireEvent.click(button);
+//         // expect(wrapper.findByText(/success/i));
+//         const { getByText } = rtl.render(<Controls/>);
+//         getByText(/unlocked/i);
+//         getByText(/open/i);
+//     })
+// })

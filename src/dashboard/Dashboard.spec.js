@@ -12,3 +12,11 @@ describe('Dashboard', () => {
         expect(wrapper.baseElement).toMatchSnapshot();
     })
 })
+
+describe('Dashboard', () => {
+    it('checks if the Dashboard is closed and locked', () => {
+        const { getByText } = rtl.render(<Dashboard/>);
+        getByText(/lock gate/i);
+        getByText(/close gate/i); 
+    })
+})
